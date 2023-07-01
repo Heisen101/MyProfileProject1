@@ -22,7 +22,7 @@
   h6 {
     margin: 0;
   }
-  
+  /* added colors and created head background */
  .head   {
     margin-top: 0;
     padding: 50px;  
@@ -38,15 +38,16 @@
         .head nav ul li{
             
         }
-    .head nav ul {
+    .head nav ul { 
        list-style-type: none;
    }
    .head nav ul li {
-    
+    /* changed nav bar to be displaced as inline-block */
    display: inline-block;
    margin-left: 25px;
 }
-h1 {
+h1 { 
+    /* fiexed h1 to the top-left */
     color: var( --header);
    float: left;
    padding: 10px 10px 2px 100px;
@@ -57,3 +58,20 @@ h1 {
 
 .head nav ul  a{
     color: var( --head1);}
+    .hero-banner {
+        /* banner under the header and with cool subtitle*/
+        display: flex;
+        height: 150px;
+        background-image: url(/MyProfile/images/1892752.jpg);
+     background-size: cover;
+  background-position: center;
+  justify-content: flex-end;
+  align-items: flex-end;
+    }
+    .subt { 
+        /* h2 proprieties element */
+        margin-bottom: 15px;
+        margin-right: 50px;
+        color:rgb(225, 220, 220);
+        text-shadow: 2px 2px 1px rgb(38, 27, 27);
+     }
