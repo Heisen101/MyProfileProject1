@@ -3,7 +3,6 @@
   }
   
   body {
-    width: 2200p;
     height: 1500px;
     margin: 0;
     padding: 0;
@@ -213,11 +212,13 @@ color: var(--head1);
         /* added style proprities to image 4 */
     #w4 { margin-left: 3%;
         color: var(--head1);
-        background-image: url(/MyProfile/images/1892752.jpg);
+        background-image: url(/MyProfile/images/myprofile.gif);
         grid-column:2/8  ;
         grid-row:7/9 ;
         border: solid 4px var(--head1);
         font-weight:  bold;
+        background-size: cover;
+        background-position: end;
     }
     #w4:hover { transform: scale(1.1); 
         box-shadow: inset 0px 0px 8px var(--head1)
@@ -267,6 +268,10 @@ color: var(--head1);
  .page-section-contact .footer1 ul a {
     color: var(--head1);
     pad: 5ps 5px 5px 5px;
-    background-color:;
+    text-shadow: 1px 2px 1px var(--header);
+
+ }
+ .page-section-contact .footer1 ul a:hover {
+    transform: scale(1.1);
  }
 
