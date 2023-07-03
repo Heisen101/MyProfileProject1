@@ -68,13 +68,19 @@ h1 {
   justify-content: flex-end;
   align-items: flex-end;
     }
+     /* added hoover effect for nav bar items */
+    .head nav ul li:hover {
+        transform: scale(1.1); 
+    }
     .subt { 
         /* h2 proprieties element */
         margin-bottom: 15px;
         margin-right: 50px;
         color:rgb(225, 220, 220);
         text-shadow: 2px 2px 1px rgb(38, 27, 27);
+        
      }
+   
 
       .me{
         width: 140px;
