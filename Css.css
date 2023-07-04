@@ -302,11 +302,10 @@ h1 {
     .page-section#about p {
        font-size: 0.75em; }
        .me{
-        width: 140px;
-        height: 170px;
-        border-radius: 90px ;
+       
         margin-left: 40%;
     }
+ 
      }
 
  @media screen and (max-width: 790px) {
@@ -376,10 +375,8 @@ align-items: flex-end;
 
   .me{
  
-    width: 100px;
-    height: 120px;
-    border-radius: 90px ;
-    margin-left: 35%;
+ 
+    margin-left: 42%;
 }
 
 .page-wrapper {
@@ -562,8 +559,8 @@ border: solid 4px var(--head1);
            font-size: 0.75em; }
 
            .me{
-            width: 120px;
-            height: 150px;
+            width: 105px;
+            height: 125px;
             border-radius: 90px ;
             margin-left: 37%;
         }
@@ -589,7 +586,12 @@ border: solid 4px var(--head1);
 
 @media screen and (max-width: 505px ) {
     
-
+    .me{
+        width: 105px;
+        height: 125px;
+        border-radius: 90px ;
+        margin-left: 37%;
+    }
  .page-section#about p {
     font-size: 0.7em;
   }
@@ -607,8 +609,8 @@ border: solid 4px var(--head1);
        font-size: 0.7em; }
 
        .me{
-        width: 120px;
-        height: 150px;
+        width: 105px;
+        height: 125px;
         border-radius: 90px ;
         margin-left: 33%;
     }
