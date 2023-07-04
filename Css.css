@@ -81,7 +81,7 @@ h1 {
      }
    
 
-      .me{
+     .me{
         width: 140px;
         height: 170px;
         border-radius: 90px ;
@@ -92,6 +92,7 @@ h1 {
         margin-left: 10%;
         height: 900px;
         display: grid;
+       
         grid-template-columns: 10% 70%;
         grid-template-rows: 20% 75% 10%;
         grid-template-areas: "about about "
@@ -138,6 +139,7 @@ h1 {
     grid-column: 2/8;
     grid-row: 1/4;
     margin-left: 3%;
+    
    
  }
  
@@ -238,7 +240,7 @@ h1 {
 
        
  #contact ul li {
-    display: inline-flex;
+    display: inline-block;
     margin: 50px;
      
     
@@ -283,3 +285,286 @@ h1 {
     transform: scale(1.1);
  }
 
+
+
+
+
+
+
+
+/* media querry firt approach */
+
+ @media screen and (max-width: 790px) {
+    .head{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: 75% 25% ;
+height: 150px;
+    }
+    .head h1 {
+        grid-column: 1/4;
+        grid-rows: 1/2 ;
+    }
+    h1 { 
+        /* fiexed h1 to the top-left */
+        color: var( --header);
+  text-align: center;
+       padding: 10px 10px 2px 10px;
+       background-color: rgb(118, 205, 205);
+       margin-left: 0px;
+       border-radius: 5px;
+    }
+   
+    .head nav ul li {
+        /* changed nav bar to be displaced as inline-block */
+       display: inline-block;
+       margin: 0 auto;
+       
+    }
+.nav {
+  grid-column: 1/4;
+  grid-row: 2/3;
+    margin:  0 auto;
+  
+    font-size: 1em;
+}
+.head   {
+    margin-top: 0;
+    padding: 10px;  
+    padding-top: 10px; 
+    padding-bottom: 50px; 
+    background-color: rgb(114, 109, 109);
+  
+ }
+ .hero-banner {
+    /* banner under the header and with cool subtitle*/
+    display: flex;
+    height: 100px;
+    background-image: url(/MyProfile/images/1892752.jpg);
+ background-size: cover;
+background-position: center;
+justify-content: flex-end;
+align-items: flex-end;
+}
+
+.subt { 
+    /* h2 proprieties element */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 0.8em;
+    margin-bottom: 15px;
+    margin-right: 1px;
+    
+ }
+
+  .me{
+ 
+    width: 100px;
+    height: 120px;
+    border-radius: 90px ;
+    margin-left: 35%;
+}
+
+.page-wrapper {
+    margin-left: 0px;
+    height: 900px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 20% 75% 10%;
+    grid-template-areas: "about about about "
+" work work work"
+"contact contact contact";
+row-gap: 30px;
+
+ }
+ #about {
+    
+    display:grid ;
+    grid-template-columns: repeat(8,1fr);
+    grid-template-rows: repeat(3,1fr);
+
+}
+.page-section #aboutme {
+    text-align: center;
+    grid-column:1/9 ;
+    grid-row: 1/2;
+  
+    border-right: none;
+    border-bottom: solid 4px grey;
+    padding-right: 1px;
+    color: var(--header);
+    
+}
+.page-section .par1 {
+    grid-column: 1/9;
+    grid-row: 2/4;
+    margin-left: none;
+   
+ }
+ 
+ /* work section and images  */
+ #work {
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    grid-template-rows:repeat(10,fr);
+    column-gap: none;
+    
+ }
+ #wor {
+    grid-column: 1/9;
+    grid-row: 1/2;
+    border-right: none;
+    border-bottom: solid 4px;
+    margin-top: none;
+    text-align: center;
+    padding-right: none;
+    color: var(--header);
+padding: none;
+   
+ }#w1 {
+    margin-left: 0%;
+    background-image: url(/MyProfile/images/Screenshot\ 2023-07-03\ 105737.png);
+    grid-column: 1/9;
+    grid-row: 2/4;
+ margin-left: none;
+    background-size: cover;
+    background-position: end;
+   text-align: center ;
+   padding:none;
+   border: solid 4px var(--head1) ;
+   font-weight:  bold;
+   text-shadow: 1px 2px 1px var(--header);
+ } 
+ #w2 { margin-left: 0%;
+    grid-column: 1/9;
+    grid-row: 4/6;
+    background-image: url(/MyProfile/images/AMJewerllyuk.gif);
+    border: solid 4px var(--head1);
+    font-weight:  bold;
+    text-shadow: 1px 2px 1px var(--header);
+    text-align: center;
+}
+#w3 {
+    text-align: center;
+    grid-column:1/9 ;
+    grid-row: 7/9;
+    background-image: url(/MyProfile/images/whitespirkelsproject.gif);
+border: solid 4px var(--head1);
+ font-weight:  bold;
+ text-shadow: 1px 2px 1px var(--header);
+
+}
+#w4 { margin-left: none;
+    margin-left: 0%;
+    color: var(--head1);
+    background-image: url(/MyProfile/images/myprofile.gif);
+    grid-column:1/9  ;
+    grid-row:9/11 ;
+    border: solid 6px var(--head1);
+    font-weight:  bold;
+    background-size: cover;
+    background-position: end;
+    text-shadow: 1px 2px 1px var(--header);
+    text-align: center;
+}
+
+    /* contact me details grid area */
+
+
+       
+    #contact ul li {
+        display: inline-flex;
+        margin: none;
+         
+        
+     } 
+     .page-section-contact {
+        display: grid;
+        grid-template-columns:repeat(8,1fr) ;
+        grid-template-rows:  repeat(3,fr);
+        text-align: center;
+       
+     }
+    
+     #footer1 {
+        grid-column: 1/9;
+        grid-row:2/4 ;
+        
+     }
+     .page-section-contact #contact1 {
+        grid-column: 1/9;
+        grid-row: 1/2;
+        text-align: center;
+        margin-top: none;
+        border-right: none;
+        padding-top: none;
+        border-bottom: solid 4px grey;
+      
+        padding-right:none;
+        color: var(--header);
+        
+     }
+     
+     
+     .page-section-contact .footer1 ul a {
+        color: var(--head1);
+        pad: 5ps 5px 5px 5px;
+        text-shadow: 1px 2px 1px var(--header);
+        font-size: 0.8em;
+        
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+    
+     }
+     .page-section-contact .footer1 ul{
+        list-style-type: none;
+       
+
+        
+     }
+     .page-section-contact .footer1{
+        display: flex;
+        justify-content:center ;
+     }
+     .page-section-contact{
+        text-align: center;
+     }
+
+ }
+ @media screen and (max-width: 962px ) {
+    
+
+    .page-section#about p {
+       font-size: 0.75em;
+     }
+   
+   }
+
+@media screen and (max-width: 505px ) {
+    
+
+ .page-section#about p {
+    font-size: 0.7em;
+  }
+
+}
+@media screen and (max-width: 357px ) {
+    
+
+    .page-section#about p {
+       font-size: 0.6em;
+     }
+   
+   }
+   @media screen and (max-width: 276px ) {
+    
+
+    .page-section#about p {
+       font-size: 0.5em;
+     }
+   
+   }
+  
