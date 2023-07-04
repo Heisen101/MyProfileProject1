@@ -303,7 +303,7 @@ height: 150px;
     }
     .head h1 {
         grid-column: 1/4;
-        grid-rows: 1/2 ;
+        grid-row: 1/2 ;
     }
     h1 { 
         /* fiexed h1 to the top-left */
@@ -514,9 +514,7 @@ border: solid 4px var(--head1);
         text-shadow: 1px 2px 1px var(--header);
         font-size: 0.8em;
         
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
+           
     
      }
      .page-section-contact .footer1 ul{
@@ -538,10 +536,52 @@ border: solid 4px var(--head1);
     
 
     .page-section#about p {
-       font-size: 0.75em;
+       font-size: 0.75em; }
+       .me{
+        width: 140px;
+        height: 170px;
+        border-radius: 90px ;
+        margin-left: 40%;
+    }
      }
+
+
    
-   }
+     @media screen and (max-width: 510px ) {
+    
+
+
+         .head .nav li { font-size: 0.8em;
+
+         }
+        .page-section#about p {
+           font-size: 0.75em; }
+
+           .me{
+            width: 120px;
+            height: 150px;
+            border-radius: 90px ;
+            margin-left: 37%;
+        }
+        .subt {
+            font-size: 0.7em;
+        }
+        #wor {
+            font-size: 1.25em;
+        }
+        #aboutme {
+            font-size: 1.25em ;
+        }
+        #contact1 {
+            font-size: 1.25em ;
+        }
+.page-section#work p  {
+    font-size: 0.85em;
+}
+         }
+        
+
+   
 
 @media screen and (max-width: 505px ) {
     
@@ -549,8 +589,35 @@ border: solid 4px var(--head1);
  .page-section#about p {
     font-size: 0.7em;
   }
+  .subt {
+    font-size: 0.65em;
+}
 
 }
+
+
+@media screen and (max-width: 405px ) {
+    
+
+    .page-section#about p {
+       font-size: 0.7em; }
+
+       .me{
+        width: 120px;
+        height: 150px;
+        border-radius: 90px ;
+        margin-left: 33%;
+    }
+    .subt {
+        font-size: 0.65em;
+    }
+.page-section-contact .footer1 ul li  {
+    line-height: 0.5px;
+}
+
+
+     }
+
 @media screen and (max-width: 357px ) {
     
 
