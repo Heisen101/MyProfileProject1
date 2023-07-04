@@ -294,6 +294,21 @@ h1 {
 
 /* media querry firt approach */
 
+@media screen and (max-width: 962px ) {
+    .subt {
+        font-size: 0.9em;
+    }
+
+    .page-section#about p {
+       font-size: 0.75em; }
+       .me{
+        width: 140px;
+        height: 170px;
+        border-radius: 90px ;
+        margin-left: 40%;
+    }
+     }
+
  @media screen and (max-width: 790px) {
     .head{
         display: grid;
@@ -532,18 +547,7 @@ border: solid 4px var(--head1);
      }
 
  }
- @media screen and (max-width: 962px ) {
-    
-
-    .page-section#about p {
-       font-size: 0.75em; }
-       .me{
-        width: 140px;
-        height: 170px;
-        border-radius: 90px ;
-        margin-left: 40%;
-    }
-     }
+ 
 
 
    
