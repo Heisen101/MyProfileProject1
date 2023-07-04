@@ -27,5 +27,4 @@ Feel free to reach out to Vasile using any of the provided contact methods.
 
 ## Code Source 
  This code was build by Vasile Orbu
-Please note that this README file serves as a description of the project and provides an overview of its contents.
-About myself
+

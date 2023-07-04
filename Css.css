@@ -434,6 +434,7 @@ row-gap: 30px;
     padding-right: none;
     color: var(--header);
 padding: none;
+
    
  }#w1 {
     margin-left: 0%;
@@ -448,6 +449,7 @@ padding: none;
    border: solid 4px var(--head1) ;
    font-weight:  bold;
    text-shadow: 1px 2px 1px var(--header);
+   
  } 
  #w2 { margin-left: 0%;
     grid-column: 1/9;
@@ -457,8 +459,9 @@ padding: none;
     font-weight:  bold;
     text-shadow: 1px 2px 1px var(--header);
     text-align: center;
+    margin-top: -1%;
 }
-#w3 {
+#w3 {margin-top: -6%;
     text-align: center;
     grid-column:1/9 ;
     grid-row: 7/9;
@@ -469,6 +472,7 @@ border: solid 4px var(--head1);
 
 }
 #w4 { margin-left: none;
+    margin-top: -1%;
     margin-left: 0%;
     color: var(--head1);
     background-image: url(/MyProfile/images/myprofile.gif);
@@ -546,10 +550,18 @@ border: solid 4px var(--head1);
  }
  
 
+@media screen and (max-width: 750px ){
+    #w3 {
+        margin-top: -7%;
+    }
 
+}
    
      @media screen and (max-width: 510px ) {
-    
+
+    #w3 {
+        margin-top: -11%;
+    }
 
 
          .head .nav li { font-size: 0.8em;
@@ -604,7 +616,9 @@ border: solid 4px var(--head1);
 
 @media screen and (max-width: 405px ) {
     
-
+    #w3 {
+        margin-top: -13%;
+    }
     .page-section#about p {
        font-size: 0.7em; }
 
@@ -626,7 +640,9 @@ border: solid 4px var(--head1);
 
 @media screen and (max-width: 357px ) {
     
-
+    #w3 {
+        margin-top: -15%;
+    }
     .page-section#about p {
        font-size: 0.6em;
      }
