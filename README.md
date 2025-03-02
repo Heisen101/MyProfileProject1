@@ -26,5 +26,5 @@ Email: [vasileholding@gmail.com](https://gmail.com/)
 Feel free to reach out to Vasile using any of the provided contact methods.
 
 ## Code Source 
- This code was build by Vasile Orbu
+ This code was build by V
 
