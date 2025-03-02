@@ -22,8 +22,8 @@ The "Contact Me" section provides various ways to get in touch with Vasile Orbu.
 LinkedIn: Vasile Orbu on [LinkedIn](https://www.linkedin.com/authwall?trk=qf&original_referer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2F)
 Twitter: Vasile Orbu on [Twitter](https://twitter.com/i/flow/login?redirect_after_login=%2F)
 Instagram: Vasile Orbu on [Instagram](https://www.instagram.com/ky_llinan/)
-Email: [vasileholding@gmail.com](https://gmail.com/)
-Feel free to reach out to Vasile using any of the provided contact methods.
+Email: 
+Feel free to reach out to V using any of the provided contact methods.
 
 ## Code Source 
  This code was build by V
